@@ -1,0 +1,137 @@
+body {
+    font-family: 'Poppins', 'Arial';
+}
+
+#login-container {
+    background: #FF6B00;
+    position: absolute;
+    top: -20px;
+    width : 327px;
+    height : 115px;
+    right: 13px;
+    border-radius:20px;
+}
+
+#login {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    top: 53px;
+    left: 58px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    /* identical to box height */
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#register {
+    color: black;
+    position: absolute;
+    right: 50px;
+    top: 52px;
+}
+
+#register-container {
+    position: absolute;
+    width: 146px;
+    height: 52px;
+    left: 159px;
+    top: 39px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1.85185px 6.33565px rgba(33, 94, 233, 0.0192593);
+    border-radius: 40px;
+}
+
+#register-text {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 39px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #343434;
+}
+
+#navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-top: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.navItem {
+    display: block;
+    padding: 54px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #888282;
+    z-index: -1;
+}
+
+.navItemSelected {
+    display: block;
+    padding: 54px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #FF6B00;
+    z-index: -1;
+}
+
+.navItem:hover {
+    color: black;
+}
+
+.navbarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.selected-circle {
+    width: 7px;
+    height: 7px;
+    background: #FF6B00;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  
