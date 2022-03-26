@@ -1,4 +1,5 @@
 # sYZTMic website
+Basic landing page and website for company information. Built in gatsby with typescript and sass.
 ## Dependencies
 Make sure to install
 - gatsby
