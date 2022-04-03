@@ -40,7 +40,29 @@ body {
     color: #888282;
 }
 
-.emph {
+#phrases .emph {
     position: absolute;
     color: black;
+}
+
+#about-description {
+    text-align: left;
+    color : black;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+#about-description .emph {
+    color : #FF6B00
+}
+
+
+#about-description li {
+    list-style-position: inside;
+}
+
+#about-description ol {
+    padding: 0;
+    margin: 0;
 }
