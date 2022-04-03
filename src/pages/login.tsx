@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby'
 import Layout from "../components/layout";
 
 const LoginPage = () => {
@@ -6,6 +7,7 @@ const LoginPage = () => {
         <div style={{position:"absolute", top:100, marginLeft: "auto", marginRight: "auto", width:"75%", left:0, right:0, textAlign: "center"}}>
             <h1>Login</h1>
             <p>We're not live yet but we hope to see you when we are!</p>
+            <Link to="/">Home</Link>
         </div>
     )
 }
