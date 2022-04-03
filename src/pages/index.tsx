@@ -5,6 +5,7 @@ import {
   phrases,
   emph,
   modelContainer,
+  aboutDescription,
 } from  "./styles.module.scss"
 import Layout from "../components/layout";
 
@@ -26,13 +27,29 @@ const Home = () => {
 
 const About = () => {
   return (
-    <div style={{position:"absolute", top:100, marginLeft: "auto", marginRight: "auto", width:"75%", left:0, right:0, textAlign: "center"}}><h1>About us!</h1></div>
+    <div style={{position:"absolute", top:145, marginLeft: "auto", marginRight: "auto", width:730, left:0, right:0, textAlign: "center"}}>
+      <div id="AboutImage" style={{ height:285}}>
+        <div style={{ position : "absolute"}}>
+        <StaticImage src="../images/watches.png" alt="Watches"></StaticImage>
+        <h1 style={{ color:"white", position: "absolute", bottom:5, left:23 }}>Smart watch. Smart fitness.</h1>
+        </div>
+      </div>
+      <div id={aboutDescription}>
+        <p>Use your existing smartwatch to track your progress through complete and customized workouts while the app tracks your form.</p>
+        <p style={{ marginBottom:0, paddingBottom:0}}>How it works:</p>
+        <ol>
+          <li><span className={emph}>Connect </span> your smartwatch to your smartphone </li>
+          <li><span className={emph}>Download</span> the app on your phone and watch </li>
+          <li><span className={emph}>Start </span> your workout </li>
+        </ol>
+      </div>
+    </div>
   )
 };
 
 const Contact = () => {
   return (
-    <div style={{position:"absolute", top:100, marginLeft: "auto", marginRight: "auto", width:"75%", left:0, right:0, textAlign: "center"}}><h1>Contact us!</h1></div>
+    <div style={{position:"absolute", top:100, marginLeft: "auto", marginRight: "auto", width:"75%", left:0, right:0, textAlign: "center"}}></div>
   )
 };
 
