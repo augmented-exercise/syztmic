@@ -62,8 +62,8 @@ const Layout = (props : any) => {
           ></StaticImage>
         </div>
         <div id={loginContainer}>
-            <a id={login}>Log in</a>
-            <a>
+            <a id={login} href="/login">Log in</a>
+            <a href="/register">
               <div id={registerContainer}>
                 <p id={registerText}>Register</p>
               </div>
